@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 // void _swap(int *a, int *b);
-void printAdd(int *n);
+// void printAdd(int *n);
+void doWork(int a, int b, int *sum, int *prod, int *avg);
 /*
 int main()
 {
@@ -43,7 +44,7 @@ void _swap(int *a, int *b)
 
   printf("a = %d & b = %d\n", *a, *b);
 }
-  */
+
 
 int main()
 {
@@ -57,3 +58,20 @@ void printAdd(int *n)
 {
   printf("Address 0f n = %u\n", n);
 }
+
+int main()
+{
+  int a = 8, b = 6;
+  int *sum, *prod, *avg;
+  doWork(a, b, &sum, &prod, &avg);
+  printf("Value of a is:%d\n value of b is:%d\n sum of a&b is %u\n prod of a&b is %u\n avg of a&b is %u", a, b, sum, prod, avg);
+  return 0;
+}
+
+void doWork(int a, int b, int *sum, int *prod, int *avg)
+{
+  *sum = a + b;
+  *prod = a * b;
+  *avg = (a + b) / 2;
+}
+     */
