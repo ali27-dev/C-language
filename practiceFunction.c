@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 // declaration/prototype
+
+void abid(int a, int b)
+{
+  int prod = a * b;
+  printf("the product of two values is: %d\n", prod);
+}
 /*
 void printHello();
 void goodBye();
@@ -15,7 +21,7 @@ int printHW(int count);
 int sum(int n);
 */
 
-float percentageStu(int sub1, int sub2, int sub3);
+// float percentageStu(int sub1, int sub2, int sub3);
 
 // void print(void *x, int type)
 // {
@@ -29,16 +35,16 @@ float percentageStu(int sub1, int sub2, int sub3);
 //   }
 // }
 
-int main()
-{
-  // printf("Area of the Squre:%.2f\n", areaSqure(6.7));
-  // printf("Area of the Circule:%.2f\n", areaCircul(3.5));
-  // printf("Area of the Circule:%.2f\n", areaRectangle(5.9, 3.6));
-  // printf("Sum is: %d", sum(5));
-  // printHW(5);
-  printf("Total percentage is :%f", percentageStu(78, 84, 78));
-  return 0;
-}
+// int main()
+// {
+// printf("Area of the Squre:%.2f\n", areaSqure(6.7));
+// printf("Area of the Circule:%.2f\n", areaCircul(3.5));
+// printf("Area of the Circule:%.2f\n", areaRectangle(5.9, 3.6));
+// printf("Sum is: %d", sum(5));
+// printHW(5);
+//   printf("Total percentage is :%f", percentageStu(78, 84, 78));
+//   return 0;
+// }
 
 ////////// funx Definition ///////
 /*
@@ -108,7 +114,18 @@ int sum(int n)
 }
   */
 
-float percentageStu(int sub1, int sub2, int sub3)
+// float percentageStu(int sub1, int sub2, int sub3)
+// {
+//   return (sub1 + sub2 + sub3) / 3;
+// }
+
+int main()
 {
-  return (sub1 + sub2 + sub3) / 3;
+  int a = 2, b = 4;
+  abid(8, 9);
+  abid(34, 78);
+  abid(65, 2);
+  abid(34, 78);
+  printf("the value of a is : %d & the value of b is: %d\n", a, b);
+  return 0;
 }
