@@ -32,7 +32,7 @@ int main()
 //   }
 // }
 // }
-
+/*
 int main()
 {
   float a = 5;
@@ -41,7 +41,23 @@ int main()
   printf("the add of a = %p\n", ptr);
   printf("the add of a = %d\n", value);
 
-  // int marks[5] = {78, 89, 67, 98, 40};
-  // printf("Highest marks = %d", findMax(marks, 5));
+  int marks[5] = {78, 89, 67, 98, 40};
+  printf("Highest marks = %d", findMax(marks, 5));
   return 0;
 }
+
+
+int main()
+{
+  int arr[5];
+
+  printf("Eter fgive val:\n");
+  for (int i = 0; i < 5; i++)
+  {
+    scanf("%d", &arr[i]);
+  }
+  printf("%d, %d, %d, %d, %d", arr[0], arr[1], arr[2], arr[3], arr[4]);
+  return 0;
+}
+
+  */

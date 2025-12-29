@@ -1,0 +1,2 @@
+1001 Laptop 50000 15 TechCorp
+1002 Smartphone 30000 30 MobileSolutions

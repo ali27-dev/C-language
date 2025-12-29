@@ -59,7 +59,7 @@ int main()
 
   return 0;
 }
-   */
+
 
 struct address
 {
@@ -117,4 +117,20 @@ void printAdd(struct address add)
 {
 
   printf("The address is= %d,%d,%s,%s\n", add.houseNo, add.blockNo, add.city, add.state);
+}
+   */
+struct Product
+{
+  int id;
+  char name[20];
+  float price;
+  int qty;
+  char supplier[20];
+};
+int main()
+{
+  struct Product p[5] = {
+      {1001, "Laptop", 50000, 15, "TechCorp"}};
+
+  return 0;
 }

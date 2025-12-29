@@ -67,7 +67,7 @@ int main()
   fclose(fptr);
   return 0;
 }
-      */
+
 
 int main()
 {
@@ -91,3 +91,29 @@ int main()
   fclose(fptr);
   return 0;
 }
+     */
+// #include <stdio.h>
+
+// int main()
+// {
+//   FILE *fp = fopen("inventory.txt", "w");
+
+//   fprintf(fp, "1001 Laptop 50000 15 TechCorp\n");
+//   fprintf(fp, "1002 Smartphone 30000 30 MobileSolutions\n");
+
+//   fclose(fp);
+//   return 0;
+// }
+// #include <stdio.h>
+
+// int main()
+// {
+//   FILE *fp = fopen("inventory.txt", "r");
+//   char ch;
+
+//   while ((ch = fgetc(fp)) != EOF)
+//     printf("%c", ch);
+
+//   fclose(fp);
+//   return 0;
+// }
